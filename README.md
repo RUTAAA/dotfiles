@@ -13,35 +13,35 @@
 ## SYSTEM INFORMATIONS
 
 ### System
-Operating System: Linux
-Distro: Arch
+- Operating System: Linux
+- Distro: Arch
 
 ### Command Line Interface
-Shell: zsh
-Terminal Emulator: Alacritty
-Prompt: Starship
-Fonts: ttf-nerd-fonts-symbols ttf-firacode-nerd ttf-fira-sans
+- Shell: zsh
+- Terminal Emulator: Alacritty
+- Prompt: Starship
+- Fonts: ttf-nerd-fonts-symbols ttf-firacode-nerd ttf-fira-sans
 
 ### Desktop Environment
-Display Server: Wayland
-Compositor: Hyprland
-Wallpaper Utility: Hyprpaper
-Color Palette Generation Tool: Matugen
-Screen Locking Utility: Hyprpaper
-Idle Deamon: Hypridle
-Status Bar: Waybar
-Notifications Deamon: Dunst
-Launcher: Rofi
-Power Menu: Rofi power-menu
+- Display Server: Wayland
+- Compositor: Hyprland
+- Wallpaper Utility: Hyprpaper
+- Color Palette Generation Tool: Matugen
+- Screen Locking Utility: Hyprpaper
+- Idle Deamon: Hypridle
+- Status Bar: Waybar
+- Notifications Deamon: Dunst
+- Launcher: Rofi
+- Power Menu: Rofi power-menu
 
 ### Programs
-File Explorer: Nautilus
-Editor: Zed
-Browser: Zen
+- File Explorer: Nautilus
+- Editor: Zed
+- Browser: Zen
 
 ### Utilities
-Network: NetworkManager
-Audio: WirePlumber
-Brightness: brightnessctl
-Screenshots: Hyprshot
-Arch User Repository Helper: yay
+- Network: NetworkManager
+- Audio: WirePlumber
+- Brightness: brightnessctl
+- Screenshots: Hyprshot
+- Arch User Repository Helper: yay
