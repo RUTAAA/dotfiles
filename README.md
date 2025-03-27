@@ -1,4 +1,4 @@
-# TODO
+## TODO
 
 - make an install script
 - make open in terminal from nautilus open alacritty
@@ -10,19 +10,19 @@
 
 
 
-# SYSTEM INFORMATIONS
+## SYSTEM INFORMATIONS
 
-## System
+### System
 Operating System: Linux
 Distro: Arch
 
-## Command Line Interface
+### Command Line Interface
 Shell: zsh
 Terminal Emulator: Alacritty
 Prompt: Starship
 Fonts: ttf-nerd-fonts-symbols ttf-firacode-nerd ttf-fira-sans
 
-## Desktop Environment
+### Desktop Environment
 Display Server: Wayland
 Compositor: Hyprland
 Wallpaper Utility: Hyprpaper
@@ -34,12 +34,12 @@ Notifications Deamon: Dunst
 Launcher: Rofi
 Power Menu: Rofi power-menu
 
-## Programs
+### Programs
 File Explorer: Nautilus
 Editor: Zed
 Browser: Zen
 
-## Utilities
+### Utilities
 Network: NetworkManager
 Audio: WirePlumber
 Brightness: brightnessctl
