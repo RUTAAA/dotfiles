@@ -1,0 +1,62 @@
+// Colors from Matugen
+
+@import "colors.rasi"
+
+
+// All
+
+* {
+    background-color: transparent;
+    text-color: @primary;
+    border-radius: 6px;
+
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+}
+
+// Window
+
+window {
+    background-color: @surface-container-low;
+    border: 2px;
+    border-color: @outline;
+}
+
+mainbox {
+    padding: 14px;
+}
+
+
+// Inputbar
+
+inputbar {
+    enabled: false;
+}
+
+
+
+// Listview
+
+listview {
+    columns: 3;
+    lines: 2;
+}
+
+element {
+    padding: 100px 4px;
+}
+element-text {
+    horizontal-align: 0.5;
+    font: "Fira Sans Semibold 28px";
+}
+element normal.normal,
+element alternate.normal {
+    background-color: transparent;
+}
+element selected.normal {
+    background-color: @primary;
+}
+element-text selected.normal {
+    text-color: @surface;
+}
