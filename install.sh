@@ -4,7 +4,7 @@
 
 # yay install
 pacman -Qm yay
-if [ $? -eq 0 ]; then
+if [ $? -eq 1 ]; then
   echo "La commande précédente a réussi."
     sudo pacman -S --needed git base-devel
     git clone https://aur.archlinux.org/yay-bin.git
