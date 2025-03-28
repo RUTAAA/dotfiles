@@ -1,6 +1,6 @@
 ## TODO
 
-- make an install script
+- improve install script
 - make open in terminal from nautilus open alacritty
 - waybar modules to add (pivacy, power-profiles-daemon, mpd, mpris)
 - customize gtk
@@ -33,6 +33,8 @@
 - Notifications Deamon: Dunst
 - Launcher: Rofi
 - Power Menu: Rofi power-menu
+- Polkit Authentication Daemon: hyprpolkitagent
+- XDG Desktop Portal Implementation: xdg-desktop-portal-hyprland
 
 ### Programs
 - File Explorer: Nautilus

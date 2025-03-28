@@ -1,0 +1,61 @@
+{
+    "clock": {
+        "format-alt": "{:%d/%m/%Y}",
+        "tooltip": false,
+    },
+
+    "hyprland/workspaces" : {
+    },
+
+    "hyprland/window": {
+        "separate-outputs": true,
+        "icon": true,
+        "tooltip": false,
+
+    },
+
+    "wireplumber": {
+        "format": "{icon} {volume}%",
+        "format-muted": "",
+        "format-icons": ["","",""],
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    },
+
+    "network": {
+        "interface": "br0",
+        "format-ethernet": " {ipaddr}",
+        "format-disconnected": "Not connected",
+        "on-click": "alacritty -e nmtui",
+    },
+
+	"group/hardware": {
+		"orientation": "inherit",
+		"drawer": {
+            "transition-duration": 500,
+            "transition-left-to-right": false,
+        },
+		"modules": [
+			"cpu",
+			"disk",
+			"memory",
+		]
+	},
+	"cpu": {
+	    "interval": 1,
+        "format": " {usage}%",
+	},
+	"memory": {
+        "interval": 1,
+        "format": " {percentage}%",
+        "max-length": 10,
+	},
+    "disk": {
+        "format": " {free}",
+    },
+
+    "custom/power": {
+        "format": "",
+        "tooltip": false,
+        "on-click": "rofi -show power-menu -modi power-menu:rofi-power-menu -theme $HOME/.config/rofi/power-menu.rasi",
+    },
+}
