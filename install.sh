@@ -15,7 +15,7 @@ fi
 
 
 # Packages installation
-yay -Sy alacritty brightnessctl dunst hypridle hyprland hyprland-qt-support hyprlock hyprpaper hyprpolkitagent ly matugen-bin networkmanager pipewire pipewire rofi-wayland starship ttf-firacode-nerd ttf-fira-sans ttf-nerd-fonts-symbols waybar wireplumber xdg-desktop-portal-hyprland zen-browser-bin zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions zsh-history-substring-search
+yay -Sy alacritty brightnessctl dunst hypridle hyprland hyprland-qt-support hyprlock hyprpaper hyprpolkitagent ly matugen-bin networkmanager pipewire pipewire rofi-power-menu rofi-wayland starship ttf-firacode-nerd ttf-fira-sans ttf-nerd-fonts-symbols waybar wireplumber xdg-desktop-portal-hyprland zen-browser-bin zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions zsh-history-substring-search
 
 # Units enabling
 systemctl enable ly
