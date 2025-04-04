@@ -1,5 +1,6 @@
 ## TODO
 
+- better laptop integration
 - improve install script
 - make open in terminal from nautilus open alacritty
 - waybar modules to add (pivacy, power-profiles-daemon, mpd, mpris)
