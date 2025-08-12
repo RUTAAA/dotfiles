@@ -30,3 +30,7 @@ output_path = '~/.config/dunst/dunstrc'
 [templates.qt6ct]
 input_path = './templates/qtct-colors.conf'
 output_path = '~/.config/qt6ct/colors/matugen.conf'
+
+[templates.alacritty]
+input_path = './templates/alacritty.toml'
+output_path = '~/.config/alacritty/colors.toml'
