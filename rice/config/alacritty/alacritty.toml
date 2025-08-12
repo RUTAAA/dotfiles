@@ -13,7 +13,7 @@ y = 10
 [selection]
 save_to_clipboard = true
 
-#[general]
-#import = [
-#    "colors.toml",
-#]
+[general]
+import = [
+    "colors.toml",
+]
