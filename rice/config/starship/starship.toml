@@ -1,3 +1,12 @@
+format = '┏ $all'
+
+[character]
+format = "┗━$symbol "
+success_symbol = '[🬃](green)'
+error_symbol = '[🬃](red)'
+
+
+
 [aws]
 symbol = "  "
 
@@ -41,7 +50,7 @@ symbol = " "
 symbol = " "
 
 [git_commit]
-tag_symbol = '  '
+tag_symbol = "  "
 
 [golang]
 symbol = " "
